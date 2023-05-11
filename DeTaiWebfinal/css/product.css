@@ -575,7 +575,7 @@ select {
   background-color: rgb(249, 247, 247);
   text-align: center;
   border-radius: 10px;
-  margin: 5px; 
+  margin: 5px;
 }
 
 #list .item .title {
@@ -725,8 +725,7 @@ footer a:hover {
   list-style: none;
   padding: 0;
   margin: 0;
-  
-font-size: 10px;
+  font-size: 10px;
 
 }
 
@@ -738,9 +737,8 @@ font-size: 10px;
 }
 
 .results-list li img {
-  width: 50px;
-  margin-right: 20px;
-  height: auto;
+  width: 8%;
+  margin-right: 10px;
 }
 
 .popup {

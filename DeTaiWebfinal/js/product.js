@@ -344,7 +344,7 @@ function displayResults() {
       const productElement = document.createElement("li");
       productElement.innerHTML = `
         <img src="${result.image}" alt="${result.name}" />
-        <h3>${result.name}</h3>
+        <h6>${result.name}</h6>
       `;
       searchResultsElement.appendChild(productElement);
     });
@@ -370,7 +370,7 @@ function showMoreResults() {
     const productElement = document.createElement("li");
     productElement.innerHTML = `
       <img src="${result.image}" alt="${result.name}" />
-      <h3>${result.name}</h3>
+      <h6>${result.name}</h6>
     `;
     searchResultsElement.appendChild(productElement);
   });
